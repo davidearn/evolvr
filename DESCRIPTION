@@ -1,0 +1,29 @@
+Package: evolvr
+Type: Package
+Title: A Package For Investigating Evolutionary Games In Finite Populations
+Version: 0.0.3
+Authors@R: c(person("David", "Earn", role = c("aut","cre"), email = "earn@math.mcmaster.ca"),
+	     person("Chai", "Molina", role = "aut", email = "chai.molina@gmail.com"),
+	     person("Alexei", "Kuzmin", role = c("aut"), email = "kuzmia1@mcmaster.ca"))
+Maintainer: David Earn <earn@math.mcmaster.ca>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RdMacros: Rdpack
+Import:
+    Deriv,
+    rootSolve,
+    ggplot2,
+    tidyr,
+	sticky,
+	truncnorm
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+Imports:
+    Deriv
+VignetteBuilder: knitr
+RoxygenNote: 7.2.3
