@@ -6,6 +6,12 @@ also be available on CRAN.
 
 This version has been tested only under macOS.
 
+# Easy install
+
+From RStudio or your favorite R interface:
+
+	remotes::install_github("davidearn/evolvr")
+
 # How to install `evolvr` from source
 
 - open `evolvr.Rproj` in RStudio
