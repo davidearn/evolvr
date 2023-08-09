@@ -14,6 +14,6 @@
 #' available on CRAN.
 #'
 #' This version does not have an associated vignette, but we plan to
-#' include a vignette is future versions, which should be possible to
+#' include a vignette in future versions, which should be possible to
 #' find via \code{browseVignettes("evolvr")}.
 "_PACKAGE"
