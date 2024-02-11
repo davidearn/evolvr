@@ -14,16 +14,27 @@ LazyData: true
 RdMacros: Rdpack
 Import:
     Deriv,
+    dplyr,
+    gsl,
+    lubridate,
+    sfsmisc,
     rootSolve,
     ggplot2,
     tidyr,
-	sticky,
-	truncnorm
+    sticky,
+    truncnorm
 Suggests: 
     knitr,
     rmarkdown,
     testthat
 Imports:
-    Deriv
+    Deriv,
+    Rdpack,
+    dplyr,
+    gsl,
+    lubridate,
+    sfsmisc,
+    sticky,
+    truncnorm
 VignetteBuilder: knitr
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
